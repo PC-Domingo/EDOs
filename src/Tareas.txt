@@ -1,0 +1,33 @@
+TAREAS POR REALIZAR
+1. Extensión de la clase Array para multiplicar un escalar por array (OK)
+2. Sobrecargar el operador * para multiplicar un array por array (OK)
+3. Sobrecarga del operador + "plus" y - "minus" entre dos arrays (OK)
+4. Pasar de " y[0] += h*yPrima[0] //accumulator" -->  y += h*yPrima //accumulator. Donde y e yPrima son arrays (OK)
+5. Plantear un sistema de ecuaciones diferencial (OK)
+    dx/dt = vx
+    dvx/dt = - k x
+
+    x = y[0]
+    vx = y[1]
+    y = {0.5, 0.0}
+
+    dx/dt = f[0]
+    dvx/dt = f[1]
+
+    f[0] = y[1]
+    f[1] = - params[0] * y[0]
+
+6. Crear un archivo con los datos de las ecuaciones diferenciales
+7. Introduce el parámetro masa en el oscilador
+8. Ampliar el sistema de ecuaciones a un oscilador amortiguado: ma=-kx-λv
+    Despejando,
+    a = -(k/m) - (λ/m)v: Aceleración
+    k = params[0]: rigidez del resorte
+    m = params[1]: masa del bloque
+    λ = params[2]: constante de amortiguamiento
+
+9. Eliminación de declaraciones redundante (OK)
+10. Pasar el nombre del archivo a generar (OK)
+11. Calcular el error en cada paso h
+https://youtu.be/pe_m8pfZWcs
+https://youtu.be/9g_geBN08IY
