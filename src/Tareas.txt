@@ -1,4 +1,6 @@
 TAREAS POR REALIZAR
+#*: Tarea pendiente
+
 1. Extensión de la clase Array para multiplicar un escalar por array (OK)
 2. Sobrecargar el operador * para multiplicar un array por array (OK)
 3. Sobrecarga del operador + "plus" y - "minus" entre dos arrays (OK)
@@ -28,6 +30,9 @@ TAREAS POR REALIZAR
 
 9. Eliminación de declaraciones redundante (OK)
 10. Pasar el nombre del archivo a generar (OK)
-11. Calcular el error en cada paso h
-https://youtu.be/pe_m8pfZWcs
-https://youtu.be/9g_geBN08IY
+11. Calcular el error en cada paso h (OK)
+    https://youtu.be/pe_m8pfZWcs
+    https://youtu.be/9g_geBN08IY
+
+12*. Cambiar automáticamente el directorio de acuerdo al computador (Laptop o DeskTop)
+

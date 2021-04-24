@@ -16,7 +16,7 @@ fun rungeKutta45(tInicial:Double,
                  hMax:Double){
 
     // Definir ruta del archivo
-    val nombreArchivo = "C:\\Users\\DELL\\Documents\\${nombreArchivo}.csv"
+    val nombreArchivo = "C:\\Users\\domin\\Documents\\${nombreArchivo}.csv"
     val file = File(nombreArchivo)
     if (!file.exists()) {
         file.createNewFile()
